@@ -1,0 +1,116 @@
+table {
+
+}
+
+#box1, #box11, #box12, #box13, #box14, #box15, #box16, #box17, #box18, #box19, #box20, #box21, #box22, #box23, #box24, #box25, #box26, #box27, #box28, #box29{
+  width: 120px;
+  height: 70px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+
+
+/*-------------------- div for labels colors on the spaces----------------------*/
+#box2div, #box4div, #box5div, #box7div, #box8div, #box10div, #box37div, #box39div, #box31div, #box32div, #box34div  {
+  position: relative;
+  margin-top: -60px;
+  height: 30px;
+  width: 80px;
+  border-bottom: 1px solid black;
+}
+
+#box12div, #box14div, #box18div, #box22div, #box24div, #box28div{
+  float: right;
+  height: 70px;
+  width: 30px;
+  border-left: 1px solid black;
+}
+
+#box13div, #box15div, #box19div, #box25div, #box29div{
+  position: relative;
+  height: 70px;
+  width: 30px;
+  border-right: 1px solid black;
+}
+
+/*pink spots*/
+#box22div, #box24div, #box28div{
+  background-color: pink;
+}
+
+
+/*orange spots*/
+#box12div, #box14div, #box18div{
+  background-color: orange;
+}
+
+
+
+/*red spots*/
+#box2div, #box4div, #box5div {
+  background-color: red;
+}
+
+/*yellow spots*/
+#box7div, #box8div, #box10div {
+  background-color: yellow;
+}
+
+
+
+/* green spots*/
+#box13div, #box15div, #box19div{
+  background-color: green;
+}
+/*blues spots*/
+#box25div, #box29div{
+  background-color: blue;
+}
+
+#box37div, #box39div{
+  background-color: brown;
+}
+
+#box31div, #box32div, #box34div{
+  background-color: #87CEFA;
+}
+
+
+.row1 td {
+  height: 120px;
+  width: 80px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.row11 td {
+  height: 120px;
+  width: 80px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+
+#box40 {
+  background-image: url(http://vignette2.wikia.nocookie.net/monopoly/images/9/91/Go-.gif/revision/latest?cb=20071004123654);
+  background-size: 120px 120px;
+}
+
+#box30 {
+  background-image: url(https://antonynbritt.files.wordpress.com/2013/06/june-16-in-jail-monopoly.jpg);
+  background-size: 120px 120px;
+}
+
+#box1{
+  background-image: url(http://www.anaheimblog.net/wp-content/uploads/2015/03/free-parking.jpg);
+  background-size: 120px 120px;
+}
+
+#box11 {
+  background-image: url(http://vignette1.wikia.nocookie.net/monopoly/images/4/44/GO_TO_JAIL.jpg/revision/latest?cb=20130414001309);
+  background-size: 120px 120px;
+}
