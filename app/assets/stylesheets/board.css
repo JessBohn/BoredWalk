@@ -1,5 +1,6 @@
 table {
   border: 10px lightblue solid;
+  background-color: #d9f2d9;
 }
 
 .row1 td {
@@ -188,4 +189,12 @@ http://orig13.deviantart.net/076b/f/2014/154/8/b/monopoly_chance_space_by_jdwink
 
 .group_name {
   font-family: "Kabel Book BT"
+}
+
+#boredwalk{
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 250px;
+  font-size: 8em;
+  transform: rotate(315deg);
 }
