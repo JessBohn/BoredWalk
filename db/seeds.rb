@@ -12,3 +12,7 @@ player4 = User.create(name: "Sean", email: "sean@sean.com", password: 12345)
 
 group1 = Group.create(name: "Team Supa Dupa Fly")
 
+group1 << player1
+group1 << player2
+group1 << player3
+group1 << player4
