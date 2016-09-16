@@ -114,3 +114,12 @@ table {
   background-image: url(http://vignette1.wikia.nocookie.net/monopoly/images/4/44/GO_TO_JAIL.jpg/revision/latest?cb=20130414001309);
   background-size: 120px 120px;
 }
+
+.player_list {
+  display: block;
+  border: 3px solid black;
+}
+
+.group_name {
+  font-family: "Kabel Book BT"
+}
