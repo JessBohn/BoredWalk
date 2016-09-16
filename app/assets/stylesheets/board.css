@@ -1,5 +1,12 @@
+body {
+  display: flex;
+}
+
 table {
-  border: 10px lightblue solid;
+  border: 10px #008B8B solid;
+  background-color: #F0F8FF;
+  flex: 1;
+  border-radius: 8px;
 }
 
 .row1 td {
@@ -163,11 +170,38 @@ http://orig13.deviantart.net/076b/f/2014/154/8/b/monopoly_chance_space_by_jdwink
   background-size: 120px 120px;
 }
 
-.player_list {
-  display: block;
-  border: 3px solid black;
+.player-list {
+  width: 400px;
+  padding: 10px;
+  flex: 2;
+  margin-left: 20px;
+  border-radius: 8px;
+  margin-top: 125px;
+  border: 10px #008B8B solid;
+  background-color: #F0F8FF;
+  font-family: Courier;
 }
 
-.group_name {
-  font-family: "Kabel Book BT"
+.group-name {
+  display: inline;
+  font-size: 40px;
+  font-family: Courier;
+  padding-bottom: 30px;
 }
+
+.board-spots {
+  text-align: center;
+}
+
+.player-data {
+  font-size: 25px;
+  text-align: center;
+
+}
+
+.headers {
+  font-size: 30px;
+}
+
+
+

@@ -1,14 +1,6 @@
 
 
-<div class="player_list">
-<p class="group_name"><%= @group.name %></p>
-<ul>
-    <% @users.each do |player| %>
-        <li><%= player.name %></li>
-        <li><%= player.board_spots %></li>
-    <% end %>
-</ul>
-</div>
+<p class="group-name">Now Playing:  <%= @group.name %></p>
 
 <table>
   <tr class="row1">
@@ -168,6 +160,20 @@
     <td id="go"></td>
   </tr>
 
+
+</table>
+
+<table class="player-list">
+    <tr class="headers";>
+        <th>Player</th>
+        <th>Properties</th>
+    </tr>
+    <% @users.each do |player| %>
+        <tr class="player-data">
+            <td><%= player.name %></td>
+            <td><%= player.board_spots %></td>
+        <tr>
+    <% end %>
 
 </table>
 
