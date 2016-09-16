@@ -12,8 +12,9 @@ class GamesController < ApplicationController
   end
 
   def create
-    user = User.find(current_user)
-    @game = user.games.new(game_params)
+    user = User.first
+    @group = Group.first
+    @game = user.groups.first.games.new(game_params)
     if @game.save
       redirect_to @game
     else
@@ -43,6 +44,9 @@ class GamesController < ApplicationController
       photo: business.image_url)
       @game.bars << @new_bar
     end
+    @group = Group.first
+    @bars = Game.first.bars
+    @users = @group.users
     render :index
   end
 
