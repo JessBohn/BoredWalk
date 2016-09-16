@@ -1,12 +1,3 @@
-<div class="player_list">
-<p class="group_name"><%= @group.name %></p>
-<ul>
-    <% @users.each do |player| %>
-        <li><%= player.name %></li>
-        <li><%= player.board_spots %></li>
-    <% end %>
-</ul>
-
 <div class="game-title">
     <p class="group-name">Now Playing:  <%= @group.name %></p>
 
