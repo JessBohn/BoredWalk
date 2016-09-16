@@ -2,8 +2,8 @@ class GamesController < ApplicationController
 
 
   def index
-    @games = Game.all
-  
+    @group = Group.first
+    @users = @group.users.order(board_spots: :desc)
   end
 
   def new
@@ -71,3 +71,9 @@ class GamesController < ApplicationController
   end
 
 end
+
+
+  
+
+end
+
