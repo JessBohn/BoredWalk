@@ -75,6 +75,13 @@ class GamesController < ApplicationController
     params.require(:game).permit(:name, :location)
   end
 
+  def update
+    @user = User.first
+    @user.board_spots += 1
+    @user.save
+    redirect_to :index
+  end
+
 end
 
 
