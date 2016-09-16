@@ -1,0 +1,7 @@
+<%= form_for @game, url: '/games', method: :post  do |f| %>
+  <%= f.label :location %>:
+  <%= f.text_field :location %><br />
+  <%= f.label :name %>:
+  <%= f.text_field :name %><br />
+  <%= f.submit "Create Game" %>
+<% end %>

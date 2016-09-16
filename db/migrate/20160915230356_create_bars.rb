@@ -4,6 +4,8 @@ class CreateBars < ActiveRecord::Migration[5.0]
       t.string :name
       t.string :address
       t.integer :rating
+      t.string :website
+      t.string :photo
 
       t.timestamps
     end
