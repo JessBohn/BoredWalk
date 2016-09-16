@@ -13,8 +13,10 @@ p {
 
 .right-column p {
   margin-left: 40px;
+  width: 70px;
   position: absolute;
   margin-top: -65px;
+  word-wrap: break-word;
 }
 
 .view {
