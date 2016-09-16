@@ -1,5 +1,15 @@
 $(document).ready(function() {
-  $("the id or class that each bar is").on("click", function(){
+  $("").on("click", function(){
+    event.preventDefault();
+
+    var bar = $(this)
+
+    $.ajax({
+      url: "/games",
+      type: "POST"
+    }).done(function(response){
+      $(".bar-name").innerHTML
+    }
 
   })
 
