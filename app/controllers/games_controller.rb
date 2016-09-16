@@ -1,1 +1,8 @@
-games_controller.rb
+
+class GamesController < ApplicationController
+
+  def index
+  end
+
+end
+
