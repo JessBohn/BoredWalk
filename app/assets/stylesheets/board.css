@@ -96,10 +96,13 @@ table {
 }
 
 /*light blue spots*/
-#box14div, #box15div, #box16div{
+ #box14div, #box15div, #box16div{
   background-color: #87CEFA;
 }
 
+ {
+  background-color: #a2a2c3;
+}
 
 /*
 http://orig13.deviantart.net/076b/f/2014/154/8/b/monopoly_chance_space_by_jdwinkerman-d7kvytv.jpg*/
@@ -148,7 +151,9 @@ http://orig13.deviantart.net/076b/f/2014/154/8/b/monopoly_chance_space_by_jdwink
   height: 70px;
 }
 
-
+#box14, #box5 {
+  background-color: #a2a2c3;
+}
 
 
 #go {
