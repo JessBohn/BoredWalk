@@ -116,6 +116,11 @@ http://orig13.deviantart.net/076b/f/2014/154/8/b/monopoly_chance_space_by_jdwink
   height: 110px;
 }
 
+#rr3 img{
+  width: 80px;
+  height: 110px;
+}
+
 #communitychest1 img{
   width: 120px;
   height: 70px;
@@ -139,7 +144,20 @@ http://orig13.deviantart.net/076b/f/2014/154/8/b/monopoly_chance_space_by_jdwink
   width: 120px;
   height: 70px;
 }
+#luxury img{
+  width: 120px;
+  height: 70px;
+}
 
+#rr2 img{
+  width: 120px;
+  height: 70px;
+}
+
+#income img{
+  width: 80px;
+  height: 120px;
+}
 
 
 
