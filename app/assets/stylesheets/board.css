@@ -18,6 +18,14 @@ table {
   border-color: black;
 }
 
+.left-column, .right-column{
+  height:70px;
+  width: 120px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
 #go, #jail, #freeparking, #gotojail{
   height:120px;
   width: 120px;
@@ -47,17 +55,14 @@ table {
 }
 
 /*pink spots*/
-#box22div, #box24div, #box28div{
+#box17div, #box18div, #box19div{
   background-color: pink;
 }
 
-
 /*orange spots*/
-#box12div, #box14div, #box18div{
+#box20div, #box21div, #box22div{
   background-color: orange;
 }
-
-
 
 /*red spots*/
 #box1div, #box2div, #box3div {
@@ -69,8 +74,6 @@ table {
   background-color: yellow;
 }
 
-
-
 /* green spots*/
 #box7div, #box8div, #box9div{
   background-color: green;
@@ -79,17 +82,35 @@ table {
 #box10div, #box11div{
   background-color: blue;
 }
-
-#box37div, #box39div{
+/*brown spots*/
+#box12div, #box13div{
   background-color: brown;
 }
 
-#box31div, #box32div, #box34div{
+/*light blue spots*/
+#box14div, #box15div, #box16div{
   background-color: #87CEFA;
 }
 
 
+/*
+http://orig13.deviantart.net/076b/f/2014/154/8/b/monopoly_chance_space_by_jdwinkerman-d7kvytv.jpg*/
 
+#chance1, #chance3 {
+  background-image: url(http://calpersloan.com/wp-content/uploads/2016/08/chance-monopoly-chance-space-monopoly-shchance.jpg);
+  background-size: 80px 120px;
+}
+#chance2{
+  width:0px;
+  height: 0px;
+}
+
+#chance2 {
+  background-image: "../images/chance.jpeg";
+  background-size: 70px 120px;
+
+
+}
 
 #go {
   background-image: url(http://vignette2.wikia.nocookie.net/monopoly/images/9/91/Go-.gif/revision/latest?cb=20071004123654);
