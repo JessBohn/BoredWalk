@@ -1,7 +1,7 @@
-
-
-<p class="group-name">Now Playing:  <%= @group.name %></p>
-
+<div class="game-title">
+    <p class="group-name">Now Playing:  <%= @group.name %></p>
+</div>
+<div class="view">
 <table>
   <tr class="row1">
     <td id="freeparking"></td>
@@ -172,9 +172,9 @@
         <tr class="player-data">
             <td><%= player.name %></td>
             <td><%= player.board_spots %></td>
-        <tr>
+        </tr>
     <% end %>
 
 </table>
-
+</div>
 
