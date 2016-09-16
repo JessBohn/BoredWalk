@@ -1,10 +1,10 @@
 <%= @game.name %>
   <div class="game-index">
-    <% @businesses.each do |business| %>
-			<p><%= business.name %></p><br />
-	  	<p><%= business.location.address %></p><br />
-	    <p><%= business.rating %></p><br />
-	    <p><a href="<% business.url %>">Website</a></p><br />
-	    <p><img src="<%= business.image_url %>"></p><br />
+    <% @game.bars.each do |bar| %>
+			<p><%= bar.name %></p><br />
+	  	<p><%= bar.address %></p><br />
+	    <p><%= bar.rating %></p><br />
+	    <p><a href="<% bar.website %>">Website</a></p><br />
+	    <p><img src="<%= bar.photo %>"></p><br />
   <% end %>
   </div>
