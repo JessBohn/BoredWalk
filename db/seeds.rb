@@ -10,3 +10,7 @@ group1.users << player1
 group1.users << player2
 group1.users << player3
 group1.users << player4
+
+
+game1 = Game.create(name: "Pub Crawl 2016")
+group1.games << game1
