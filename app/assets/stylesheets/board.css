@@ -5,7 +5,7 @@
 
 table {
   border: 10px #008B8B solid;
-  background-color: #F0F8FF;
+  background-color: #d9f2d9;
   flex: 1;
   border-radius: 8px;
 }
@@ -225,8 +225,18 @@ http://orig13.deviantart.net/076b/f/2014/154/8/b/monopoly_chance_space_by_jdwink
   text-decoration: underline;
 }
 
+
+#boredwalk{
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 250px;
+  font-size: 8em;
+  transform: rotate(315deg);
+}
+
 .game-title {
   margin-bottom: 20px;
   margin-left: 20px
 }
+
 
