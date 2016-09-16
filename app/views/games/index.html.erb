@@ -1,5 +1,15 @@
 
 
+<div class="player_list">
+<p class="group_name"><%= @group.name %></p>
+<ul>
+    <% @users.each do |player| %>
+        <li><%= player.name %></li>
+        <li><%= player.board_spots %></li>
+    <% end %>
+</ul>
+</div>
+
 <table>
   <tr class="row1">
     <td id="freeparking"></td>
