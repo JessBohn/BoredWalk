@@ -2,6 +2,10 @@ table {
   border: 10px lightblue solid;
 }
 
+.right-column p {
+  float: right;
+}
+
 .row1 td {
   height: 120px;
   width: 80px;
