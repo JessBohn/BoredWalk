@@ -8,7 +8,9 @@ class GamesController < ApplicationController
 
   def update
     @user = User.first
-
+    @user.board_spots += 1
+    @user.save
+    redirect_to :index
   end
 
 end
