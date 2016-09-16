@@ -1,3 +1,22 @@
+
+p {
+  font-size:  .8em;
+  text-align: center;
+}
+
+.row1 p, .row11 p {
+  position: absolute;
+  word-wrap: break-word;
+  height: 45px;
+  width: 80px;
+}
+
+.right-column p {
+  margin-left: 40px;
+  position: absolute;
+  margin-top: -65px;
+}
+
 .view {
   display: flex;
 
@@ -9,6 +28,8 @@ table {
   flex: 1;
   border-radius: 8px;
 }
+
+
 
 .row1 td {
   height: 120px;
