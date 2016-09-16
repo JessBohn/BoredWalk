@@ -6,5 +6,10 @@ class GamesController < ApplicationController
     @users = @group.users.order(board_spots: :desc)
   end
 
+  def update
+    @user = User.first
+
+  end
+
 end
 

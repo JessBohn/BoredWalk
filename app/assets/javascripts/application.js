@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(document).ready(function() {
+  $("td").on("click", function(e) {
+    e.preventDefault()
+    $(this).css("background-color", "#a2a2c3")
+
+  })
+})
