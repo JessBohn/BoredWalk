@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-	root 'locations#index'
+	resources :locations
 	post '/search' => 'locations#search'
 end

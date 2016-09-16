@@ -1,13 +1,12 @@
 class LocationsController < ActionController::Base
-	
+
 	def index
-		render "Hello"
+		@game = Game.new(params[:game])
+
+		response = Yelp.client.search(@game.location, { term: 'bar' })
+		@businesses = response.businesses
+		render :index
 	end
 
-
-	def search
-		# parameters = { term: params[:term], limit: 16 }
-    render json: Yelp.client.search('Austin', { term: 'bar' })
-  end
 
 end

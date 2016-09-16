@@ -1,0 +1,17 @@
+<%= form_for @game, url: '/locations', method: :post  do |f| %>
+  <%= f.label :location %>:
+  <%= f.text_field :location %><br />
+  <%= f.label :name %>:
+  <%= f.text_field :name %><br />
+  <%= f.submit %>
+<% end %>
+
+
+<% @businesses.each do |business| %>
+<p><%= business.name %></p><br />
+  <p><%= business.location.address %></p><br />
+    <p><%= business.rating %></p><br />
+    <p><a href="<% business.url %>">Website</a></p><br />
+    <p><img src="<%= business.image_url %>"></p><br />
+  <% end %>
+
