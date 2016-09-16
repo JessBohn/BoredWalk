@@ -1,8 +1,9 @@
 
-player1 = User.create(name: "Kim", email: "kim@kim.com", password: 12345)
-player2 = User.create(name: "Jay", email: "jay@jay.com", password: 12345)
-player3 = User.create(name: "Jess", email: "jess@jess.com", password: 12345)
-player4 = User.create(name: "Sean", email: "sean@sean.com", password: 12345)
+
+player1 = User.create(name: "Jess", email: "kim@kim.com", password: 12345, board_spots: 2)
+player2 = User.create(name: "Jay", email: "jay@jay.com", password: 12345, board_spots: 1)
+player3 = User.create(name: "Kim", email: "jess@jess.com", password: 12345, board_spots: 4)
+player4 = User.create(name: "Sean", email: "sean@sean.com", password: 12345, board_spots: 3)
 
 group1 = Group.create(name: "Team Supa Dupa Fly")
 
