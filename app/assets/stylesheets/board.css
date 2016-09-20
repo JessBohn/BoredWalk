@@ -1,3 +1,24 @@
+
+p {
+  font-size:  .8em;
+  text-align: center;
+}
+
+.row1 p, .row11 p {
+  position: absolute;
+  word-wrap: break-word;
+  height: 45px;
+  width: 80px;
+}
+
+.right-column p {
+  margin-left: 40px;
+  width: 70px;
+  position: absolute;
+  margin-top: -65px;
+  word-wrap: break-word;
+}
+
 .view {
   display: flex;
 
@@ -5,10 +26,12 @@
 
 table {
   border: 10px #008B8B solid;
-  background-color: #F0F8FF;
+  background-color: #d9f2d9;
   flex: 1;
   border-radius: 8px;
 }
+
+
 
 .row1 td {
   height: 120px;
@@ -96,10 +119,13 @@ table {
 }
 
 /*light blue spots*/
-#box14div, #box15div, #box16div{
+ #box14div, #box15div, #box16div{
   background-color: #87CEFA;
 }
 
+ {
+  background-color: #a2a2c3;
+}
 
 /*
 http://orig13.deviantart.net/076b/f/2014/154/8/b/monopoly_chance_space_by_jdwinkerman-d7kvytv.jpg*/
@@ -157,6 +183,10 @@ http://orig13.deviantart.net/076b/f/2014/154/8/b/monopoly_chance_space_by_jdwink
   height: 70px;
 }
 
+#box14, #box5 {
+  background-color: #a2a2c3;
+}
+
 #rr2 img{
   width: 120px;
   height: 70px;
@@ -166,8 +196,6 @@ http://orig13.deviantart.net/076b/f/2014/154/8/b/monopoly_chance_space_by_jdwink
   width: 80px;
   height: 120px;
 }
-
-
 
 #go {
   background-image: url(http://vignette2.wikia.nocookie.net/monopoly/images/9/91/Go-.gif/revision/latest?cb=20071004123654);
@@ -225,8 +253,18 @@ http://orig13.deviantart.net/076b/f/2014/154/8/b/monopoly_chance_space_by_jdwink
   text-decoration: underline;
 }
 
+
+#boredwalk{
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 250px;
+  font-size: 8em;
+  transform: rotate(315deg);
+}
+
 .game-title {
   margin-bottom: 20px;
   margin-left: 20px
 }
+
 
